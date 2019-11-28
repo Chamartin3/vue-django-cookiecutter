@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load render_bundle from webpack_loader %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    {% block 'styles' %}
+      {% render_bundle 'main' 'css' %}
+    {%endblock%}
+    <title>{{cookiecutter.project_name}}</title>
+  </head>
+  <body>
+    {% block 'content' %}
+      <div id="app"></div>
+    {%endblock%}
+    <noscript>
+      <strong>We're sorry but {{cookiecutter.project_name}} doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    {% block 'scripts' %}
+      {% render_bundle 'main' 'js' %}
+    {%endblock%}
+  </body>
+</html>

@@ -1,0 +1,9 @@
+Django==2.2.7
+django-debug-toolbar==2.1
+django-webpack-loader==0.6.0
+djangorestframework==3.10.3
+drf-generators==0.4.0
+gunicorn==20.0.4
+Markdown==3.1.1
+pytz==2019.3
+sqlparse==0.3.0

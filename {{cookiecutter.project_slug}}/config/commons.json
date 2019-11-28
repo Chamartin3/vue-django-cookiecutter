@@ -1,0 +1,8 @@
+{
+  "static_folder":"/static/",
+  "output":"/static/js/",
+  "stats_file":"/static/webpack-stats.json",
+  "entries":{
+    "main": { "entry": "src/main.js" }
+  }
+}

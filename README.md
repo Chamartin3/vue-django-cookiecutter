@@ -1,0 +1,1 @@
+#{{cookircutter.project_slug}}
