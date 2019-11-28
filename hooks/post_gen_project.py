@@ -1,9 +1,9 @@
 import os
 
 def install_dependencies():
-    os.system('./install_dependencies')
+    os.system('./install_dependencies.sh')
 def git_commands():
-    os.system('./git_commands')
+    os.system('./git_commands.sh')
 
 
 def main():
